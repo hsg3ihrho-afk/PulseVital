@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pulsevital.co.uk/sitemap.xml

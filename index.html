@@ -6,7 +6,7 @@
 <title>Mobile Blood Tests at Home | PulseVital</title>
 <meta name="description" content="Book a home blood test with PulseVital. Choose your test and a specialist collects your blood at your home or chosen address. Results in three days; allergy tests take five.">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-<meta name="theme-color" content="#0B2A5B">
+<meta name="theme-color" content="#13315C">
 <link rel="canonical" href="https://pulsevital.co.uk/">
 <meta property="og:type" content="website"><meta property="og:site_name" content="PulseVital"><meta property="og:locale" content="en_GB">
 <meta property="og:title" content="Mobile Blood Tests at Home | PulseVital">
@@ -14,106 +14,184 @@
 <meta property="og:url" content="https://pulsevital.co.uk/">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://pulsevital.co.uk/#org","name":"PulseVital","url":"https://pulsevital.co.uk/"},{"@type":"WebSite","@id":"https://pulsevital.co.uk/#site","url":"https://pulsevital.co.uk/","name":"PulseVital","inLanguage":"en-GB","publisher":{"@id":"https://pulsevital.co.uk/#org"}},{"@type":"Service","name":"Home blood test collection","serviceType":"Mobile blood collection","provider":{"@id":"https://pulsevital.co.uk/#org"},"areaServed":{"@type":"Country","name":"United Kingdom"}}]}</script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap">
 <style>
-:root{--navy:#0B2A5B;--teal:#0E8F8B;--teal-bg:#E3F4F3;--red:#C8102E;--bg:#F5F8FA;--card:#fff;--ink:#0E1B2E;--mute:#546275;--line:#D6DEE6;--on-navy:#fff;
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--navy:#8FB4F2;--teal:#2FC7C1;--teal-bg:#0F2F33;--red:#FF5A70;--bg:#0A1220;--card:#111C30;--ink:#EAF0F7;--mute:#9AABBE;--line:#233250;--on-navy:#0A1220;color-scheme:dark}}
-:root[data-theme="dark"]{--navy:#8FB4F2;--teal:#2FC7C1;--teal-bg:#0F2F33;--red:#FF5A70;--bg:#0A1220;--card:#111C30;--ink:#EAF0F7;--mute:#9AABBE;--line:#233250;--on-navy:#0A1220;color-scheme:dark}
+:root{
+  --navy:#13315C;--teal:#0F7C78;--teal-bg:#E4F2F1;--red:#B42335;
+  --bg:#F4F7F9;--card:#FFFFFF;--ink:#16202E;--mute:#556274;--line:#D9E0E7;--on-navy:#FFFFFF;
+  --cap-lav:#8B78C8;--cap-gold:#D9A032;--cap-grey:#8C97A3;--cap-blue:#5FA3D9;--cap-red:#C8313E;
+  --blood:#9E1B2B;--glass:#EEF3F7;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--navy:#9DBBF0;--teal:#3CC2BC;--teal-bg:#12302F;--red:#FF6B7D;--bg:#0D1520;--card:#142030;--ink:#E8EEF5;--mute:#9FB0C3;--line:#26364B;--on-navy:#0D1520;--glass:#1B2A3D;--blood:#C2354A;color-scheme:dark}}
+:root[data-theme="dark"]{--navy:#9DBBF0;--teal:#3CC2BC;--teal-bg:#12302F;--red:#FF6B7D;--bg:#0D1520;--card:#142030;--ink:#E8EEF5;--mute:#9FB0C3;--line:#26364B;--on-navy:#0D1520;--glass:#1B2A3D;--blood:#C2354A;color-scheme:dark}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Figtree,system-ui,-apple-system,"Segoe UI",sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:30}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--teal);outline-offset:2px}
-.demo{background:var(--red);color:#fff;font-size:13px;text-align:center;padding:6px 12px;font-weight:500}
-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--card);border-bottom:1px solid var(--line)}
-.bar{max-width:1040px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 16px;gap:12px}
-.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:21px;color:var(--navy);text-decoration:none;letter-spacing:-.02em}
-.logo b{color:var(--teal);font-weight:800}
+p{margin:0 0 1em}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:1120px;margin:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:12px 20px;gap:12px}
+.logo{display:flex;align-items:center;gap:9px;font-weight:700;font-size:21px;color:var(--navy);text-decoration:none;letter-spacing:-.02em}
+.logo b{color:var(--teal);font-weight:700}
 .logo svg{width:30px;height:30px}
-nav{display:flex;gap:4px}
-nav a{padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:500;color:var(--mute)}
+nav{display:flex;gap:2px}
+nav a{padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:500;color:var(--mute)}
+nav a:hover{color:var(--ink)}
 nav a[aria-current=page]{color:var(--navy);background:var(--teal-bg)}
-main{max-width:1040px;margin:auto;padding:20px 16px 60px}
-h1,h2,h3{line-height:1.15;letter-spacing:-.02em;margin:0 0 .5em;color:var(--navy)}
-h1{font-size:clamp(32px,7vw,56px);font-weight:800}
-h2{font-size:clamp(24px,4.5vw,34px);font-weight:800}
-h3{font-size:18px;font-weight:700}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:12px;border:2px solid var(--navy);background:var(--navy);color:var(--on-navy);font:700 16px Figtree,sans-serif;cursor:pointer;text-decoration:none}
+.acts{display:flex;align-items:center;gap:8px}
+.acts .btn{min-height:40px;padding:0 16px;font-size:15px}
+.ib{width:40px;height:40px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);display:grid;place-items:center;cursor:pointer;padding:0}
+.ib svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* layout + type */
+main{max-width:1120px;margin:auto;padding:24px 20px 72px}
+h1,h2,h3{color:var(--navy);margin:0 0 .45em;letter-spacing:-.025em}
+h1{font-size:clamp(38px,6.4vw,68px);line-height:1.02;font-weight:700;letter-spacing:-.035em}
+h2{font-size:clamp(26px,3.6vw,38px);line-height:1.1;font-weight:700}
+h3{font-size:19px;line-height:1.25;font-weight:600}
+section{margin-top:72px}
+.lede{font-size:clamp(18px,1.6vw,20px);color:var(--mute);max-width:46ch}
+.sub{color:var(--mute);max-width:60ch;margin-top:-4px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 24px;border-radius:999px;border:2px solid var(--navy);background:var(--navy);color:var(--on-navy);font:600 16px "Instrument Sans",system-ui,sans-serif;cursor:pointer;text-decoration:none;transition:background .15s,color .15s,border-color .15s}
+.btn:hover{filter:brightness(1.08)}
 .btn.alt{background:transparent;color:var(--navy)}
+.btn.alt:hover{background:var(--teal-bg);filter:none}
 .btn.teal{background:var(--teal);border-color:var(--teal);color:#fff}
-.btn:disabled{opacity:.45;cursor:not-allowed}
-.hero{display:grid;gap:28px;padding:28px 0 40px}
-.hero p{font-size:18px;color:var(--mute);max-width:54ch}
-.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
-.pulse{width:100%;height:90px;color:var(--teal)}
-.pulse path{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 2.2s ease forwards}
-@keyframes draw{to{stroke-dashoffset:0}}
-@media (prefers-reduced-motion:reduce){.pulse path{animation:none;stroke-dashoffset:0}}
-section{margin-top:44px}
-.ico{width:44px;height:44px;border-radius:12px;background:var(--teal-bg);display:grid;place-items:center;transition:transform .2s}
-.ico svg,.jb svg{width:24px;height:24px;fill:none;stroke:var(--teal);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.card:hover .ico{transform:rotate(-8deg) scale(1.1)}
-.jr{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-.jb{display:grid;justify-items:center;gap:6px;padding:14px 4px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);font:700 14px Figtree,sans-serif;cursor:pointer;min-height:84px;transition:transform .15s}
-.jb:hover{transform:translateY(-3px)}
-.jb svg{width:30px;height:30px}
-.jb[aria-pressed=true]{border-color:var(--teal);background:var(--teal-bg)}
-.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
-.price{font-weight:800;font-size:22px;color:var(--navy)}
-.code{font-size:13px;color:var(--mute)}
-.tag{display:inline-block;font-size:12px;padding:2px 9px;border-radius:99px;background:var(--teal-bg);color:var(--teal);font-weight:700;margin-right:4px}
+.btn.danger{border-color:var(--red);background:transparent;color:var(--red)}
+.btn:disabled{opacity:.45;cursor:not-allowed;filter:none}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;padding:40px 0 8px}
+.hero h1{max-width:12ch}
+.rack{width:100%;max-width:420px;justify-self:end;color:var(--ink)}
+.rack .glass{fill:var(--glass);stroke:var(--line);stroke-width:2}
+.rack .fill{fill:var(--blood)}
+.rack .lbl{font:600 13px "Instrument Sans",sans-serif;fill:var(--mute)}
+.rack .base{fill:var(--card);stroke:var(--line);stroke-width:2}
+.rack .fill{transform-box:fill-box;transform-origin:bottom;animation:rise 1.4s cubic-bezier(.3,.7,.2,1) both}
+.rack g:nth-of-type(2) .fill{animation-delay:.15s}.rack g:nth-of-type(3) .fill{animation-delay:.3s}.rack g:nth-of-type(4) .fill{animation-delay:.45s}.rack g:nth-of-type(5) .fill{animation-delay:.6s}
+@keyframes rise{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@media (prefers-reduced-motion:reduce){.rack .fill{animation:none}}
+
+/* facts row */
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:48px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:22px 24px 22px 0}
+.facts div+div{padding-left:24px;border-left:1px solid var(--line)}
+.facts b{display:block;font-size:22px;color:var(--navy);letter-spacing:-.02em;margin-bottom:2px}
+.facts span{color:var(--mute);font-size:15px}
+
+/* timeline (a real sequence) */
+.timeline{list-style:none;padding:0;margin:28px 0 0;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;counter-reset:s;position:relative}
+.timeline::before{content:"";position:absolute;left:18px;right:18px;top:18px;height:2px;background:var(--line)}
+.timeline li{counter-increment:s;position:relative}
+.timeline li::before{content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--navy);color:var(--on-navy);font-weight:700;margin-bottom:16px;position:relative;box-shadow:0 0 0 6px var(--bg)}
+.timeline p{color:var(--mute);margin:0;font-size:16px}
+
+/* cards + packages */
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:8px;position:relative;overflow:hidden}
+.pkg{padding-top:30px}
+.pkg::before{content:"";position:absolute;inset:0 0 auto;height:10px;background:var(--cap,var(--cap-lav))}
+.pkg h3{margin:0}
+.pkg .code{margin:0}
+.pkg .meta{margin-top:auto;display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding-top:10px;border-top:1px dashed var(--line)}
+.price{font-weight:700;font-size:24px;color:var(--navy);letter-spacing:-.02em}
+.code{font-size:14px;color:var(--mute)}
+.tag{display:inline-block;font-size:12.5px;padding:3px 10px;border-radius:999px;background:var(--teal-bg);color:var(--teal);font-weight:600;margin:0 4px 4px 0}
+.ico{display:none}
+.more{display:inline-block;margin-top:18px;font-weight:600;color:var(--navy)}
+
+/* prep */
+.prep{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}
+.prep .card{flex-direction:row;gap:16px;align-items:flex-start}
+.prep svg{flex:none;width:40px;height:40px;fill:none;stroke:var(--teal);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.prep p{margin:0;color:var(--mute)}
+
+/* areas */
+.areas{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin-top:22px;padding:0;list-style:none}
+.areas li{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-weight:600}
+.areas li a{color:inherit;text-decoration:none}.areas li a:hover{text-decoration:underline}
+.areas li span{font-weight:500;font-size:14px;color:var(--mute)}
+
+/* shared bits used by booking + account views */
 .steps{display:grid;gap:12px;counter-reset:s;padding:0;list-style:none}
-.steps li{counter-increment:s;display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
-.steps li::before{content:counter(s);flex:none;width:32px;height:32px;border-radius:50%;background:var(--teal);color:#fff;font-weight:800;display:grid;place-items:center}
-.note{background:var(--teal-bg);border-radius:12px;padding:14px 16px;color:var(--ink);font-size:15px}
-.tools{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
-input,select,textarea{font:inherit;color:var(--ink);background:var(--card);border:1.5px solid var(--line);border-radius:10px;padding:11px 12px;min-height:46px;width:100%}
+.steps li{counter-increment:s;display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.steps li::before{content:counter(s);flex:none;width:32px;height:32px;border-radius:50%;background:var(--teal);color:#fff;font-weight:700;display:grid;place-items:center}
+.note{background:var(--teal-bg);border-radius:14px;padding:16px 18px;color:var(--ink);font-size:15.5px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;min-height:48px;width:100%}
+input:focus,select:focus,textarea:focus{border-color:var(--teal);outline:none;box-shadow:0 0 0 3px color-mix(in srgb,var(--teal) 25%,transparent)}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{min-height:40px;padding:0 14px;border-radius:99px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:500 14px Figtree,sans-serif;cursor:pointer}
+.chip{min-height:40px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:500 14.5px "Instrument Sans",sans-serif;cursor:pointer}
 .chip[aria-pressed=true]{background:var(--navy);color:var(--on-navy);border-color:var(--navy)}
-.prog{display:flex;gap:6px;margin-bottom:18px}
+.prog{display:flex;gap:6px;margin-bottom:22px}
 .prog i{flex:1;height:6px;border-radius:3px;background:var(--line)}
 .prog i.on{background:var(--teal)}
-.cal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.cal{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
 .cal-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
 .cal-g{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
-.cal-g .w{font-size:12px;color:var(--mute);padding:4px 0}
-.d{aspect-ratio:1;min-height:42px;border-radius:10px;border:1.5px solid transparent;background:var(--teal-bg);color:var(--ink);font:700 15px Figtree,sans-serif;cursor:pointer}
+.cal-g .w{font-size:12.5px;color:var(--mute);padding:4px 0}
+.d{aspect-ratio:1;min-height:42px;border-radius:12px;border:1.5px solid transparent;background:var(--teal-bg);color:var(--ink);font:600 15px "Instrument Sans",sans-serif;cursor:pointer}
 .d:disabled{background:transparent;color:var(--mute);opacity:.4;cursor:not-allowed;text-decoration:line-through}
 .d[aria-pressed=true]{background:var(--navy);color:var(--on-navy)}
 .wins{display:grid;gap:12px;grid-template-columns:1fr 1fr;margin-top:14px}
-.win{text-align:left;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:14px;padding:14px;font:inherit;cursor:pointer;min-height:96px}
+.win{text-align:left;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:16px;padding:16px;font:inherit;cursor:pointer;min-height:90px}
 .win b{display:block;font-size:18px}
 .win[aria-pressed=true]{border-color:var(--teal);background:var(--teal-bg)}
 .win:disabled{opacity:.5;cursor:not-allowed}
-.f{display:grid;gap:12px;margin-top:10px}
-label{font-weight:700;font-size:14px;display:grid;gap:5px}
+.f{display:grid;gap:14px;margin-top:10px}
+label{font-weight:600;font-size:14.5px;display:grid;gap:6px}
 .err{color:var(--red);font-size:14px;font-weight:500;min-height:1em}
-.row{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}
-.nav2{display:flex;justify-content:space-between;gap:10px;margin-top:20px}
-.stamp{display:inline-block;border:2px dashed var(--red);color:var(--red);padding:4px 10px;border-radius:8px;font-weight:800;font-size:13px}
-footer{border-top:1px solid var(--line);padding:24px 16px;text-align:center;color:var(--mute);font-size:13px}
-.bar{flex-wrap:wrap}
-.acts{display:flex;align-items:center;gap:8px}
-.acts .btn{min-height:40px;padding:0 14px;font-size:14.5px;border-radius:10px}
-.ib{width:40px;height:40px;border-radius:10px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);display:grid;place-items:center;cursor:pointer;padding:0}
-.ib svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.auth{max-width:460px;margin:8px auto 0}
-.tabs{display:flex;gap:6px;overflow-x:auto;margin:14px 0 18px;padding-bottom:4px}
-.tab{flex:none;min-height:42px;padding:0 16px;border-radius:99px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:700 14px Figtree,sans-serif;cursor:pointer}
+.row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.nav2{display:flex;justify-content:space-between;gap:10px;margin-top:24px}
+.stamp{display:inline-block;border:2px dashed var(--red);color:var(--red);padding:4px 10px;border-radius:8px;font-weight:700;font-size:13px}
+.auth{max-width:460px;margin:12px auto 0}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:16px 0 20px;padding-bottom:4px}
+.tab{flex:none;min-height:42px;padding:0 18px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:600 14.5px "Instrument Sans",sans-serif;cursor:pointer}
 .tab[aria-pressed=true]{background:var(--navy);color:var(--on-navy);border-color:var(--navy)}
-.st{display:inline-block;font-size:12px;font-weight:800;padding:2px 9px;border-radius:99px;background:var(--teal-bg);color:var(--teal)}
+.st{display:inline-block;font-size:12.5px;font-weight:700;padding:3px 10px;border-radius:999px;background:var(--teal-bg);color:var(--teal)}
 .st.x{background:transparent;border:1.5px solid var(--red);color:var(--red)}
-.btn.danger{border-color:var(--red);background:transparent;color:var(--red)}
 .mail{border:1px dashed var(--line);border-radius:12px;padding:14px;background:var(--card);font-size:14px}
 .mail p{margin:0 0 10px}
-details summary{cursor:pointer;font-weight:700;color:var(--navy);min-height:32px}
-.ok{background:var(--teal-bg);border-radius:10px;padding:10px 12px;font-weight:700;color:var(--ink);margin:0 0 14px}
-@media (max-width:640px){nav{order:3;flex-basis:100%}.logo{font-size:19px}.logo svg{width:26px;height:26px}.acts .btn{padding:0 11px;font-size:14px}}
-@media (max-width:520px){nav a{padding:8px}.wins{grid-template-columns:1fr}}
+details summary{cursor:pointer;font-weight:600;color:var(--navy);min-height:32px}
+.ok{background:var(--teal-bg);border-radius:12px;padding:12px 14px;font-weight:600;color:var(--ink);margin:0 0 16px}
+
+/* footer */
+footer{border-top:1px solid var(--line);background:var(--card)}
+.foot{max-width:1120px;margin:auto;padding:36px 20px 40px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;color:var(--mute);font-size:15px}
+.foot h3{font-size:15px;margin:0 0 8px;color:var(--ink)}
+.foot p{margin:0 0 6px}
+.foot a{color:var(--navy)}
+.foot .small{grid-column:1/-1;border-top:1px solid var(--line);padding-top:18px;font-size:13.5px}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;gap:28px;padding-top:20px}
+  .rack{justify-self:start;max-width:300px}
+  .timeline{grid-template-columns:1fr 1fr;row-gap:32px}
+  .timeline::before{display:none}
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  nav{order:3;flex-basis:100%}
+  .logo{font-size:19px}.logo svg{width:26px;height:26px}
+  .acts .btn{padding:0 12px;font-size:14px}
+  section{margin-top:56px}
+  .facts{grid-template-columns:1fr}
+  .facts div,.facts div+div{padding:16px 0;border-left:0}
+  .facts div+div{border-top:1px solid var(--line)}
+  .timeline{grid-template-columns:1fr}
+  .prep{grid-template-columns:1fr}
+  .wins{grid-template-columns:1fr}
+  .foot{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
@@ -123,11 +201,17 @@ details summary{cursor:pointer;font-weight:700;color:var(--navy);min-height:32px
 <div class="acts" id="acts"></div>
 </div></header>
 <main id="app" tabindex="-1" aria-live="polite"></main>
-<footer>PulseVital is a mobile blood collection service. Results explanations are plain-language guidance, not a diagnosis.</footer>
+<footer><div class="foot">
+<div><h3>PulseVital</h3><p>Mobile blood test collection at home across Oxfordshire, Berkshire, Buckinghamshire, Wiltshire, Northamptonshire, Gloucestershire and Warwickshire.</p></div>
+<div><h3>Contact</h3><p><a href="mailto:hello@pulsevital.co.uk">hello@pulsevital.co.uk</a></p></div>
+<div><h3>Explore</h3><p><a href="/tests/">All tests</a></p><p><a href="/areas/">Areas we cover</a></p><p><a href="/cancellation-policy/">Cancellation policy</a></p><p><a href="#book">Book a home visit</a></p></div>
+<p class="small">Our results explanations are plain-language guidance, not a diagnosis. Speak to a clinician about any concerns.</p>
+</div></footer>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 const H0=location.hash;
-const SB=window.supabase.createClient("https://twiwsfiwtewmdldvtket.supabase.co","sb_publishable_5DNjAKMF03aiP0bSfAr-Dw_DhtYmSGe",{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true,flowType:"implicit"}});
+const SB_OFF=(()=>{const err={message:"offline"},r=Promise.resolve({data:null,error:err});const q=new Proxy({},{get:(t,k)=>k==="then"?undefined:()=>q});q.then=(f,g)=>r.then(f,g);return{from:()=>q,rpc:()=>r,auth:{onAuthStateChange:f=>{setTimeout(()=>f("INITIAL_SESSION",null),0)},signUp:()=>r,signInWithPassword:()=>r,signOut:()=>r,resetPasswordForEmail:()=>r,updateUser:()=>r}}})();
+const SB=!window.supabase?SB_OFF:window.supabase.createClient("https://twiwsfiwtewmdldvtket.supabase.co","sb_publishable_5DNjAKMF03aiP0bSfAr-Dw_DhtYmSGe",{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true,flowType:"implicit"}});
 const P=[
 ["NP6","Standard Health Screen",92.3,"gen","Full Blood Count|Liver function tests|Kidney function (U&Es)|Glucose"],
 ["NP7","Standard Plus – Female",119.6,"gen women","Full Blood Count|Liver and kidney function|Lipid profile|Thyroid (TSH)|Iron status"],
@@ -173,7 +257,9 @@ const IC={sport:"M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12",gen:"M12 20s-7-4.5-7-10a4
 const ico=c=>{const k=c.find(x=>IC[x])||"gen";return `<span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="${IC[k]}"/></svg></span>`};
 const S={cat:"all",q:"",pkg:null,step:1,pc:"",date:null,win:null,m:new Date(),d:{},done:null,ok:false};
 S.m=new Date(S.m.getFullYear(),S.m.getMonth(),1);
-const AREAS={OX:"Oxfordshire",RG:"Berkshire",SL:"Berkshire",HP:"Buckinghamshire",SN:"Wiltshire",NN:"Northamptonshire",GL:"Gloucestershire"};
+const COVER=[/^OX\d/,/^SN\d/,/^GL\d/,/^NN\d/,/^SL\d/,/^MK([1-9]|1[0-9])$/,/^HP([5-9]|1\d|2[0-2]|27)$/,/^RG([1-9]|1\d|20|3[01]|4[0-2]|45)$/,/^SP([1-5]|9)$/,/^BA1[2-5]$/,/^CV([89]|1[0-3]|2[1-3]|3[1-7]|47)$/,/^B(49|50|80|95)$/,/^GU47$/];
+const outward=pc=>{const c=pc.toUpperCase().replace(/\s+/g,"");if(!/^[A-Z]{1,2}\d/.test(c))return"";const m=c.match(/^([A-Z]{1,2}\d[A-Z\d]?)(\d[A-Z]{2})$/);return m?m[1]:c.match(/^[A-Z]{1,2}\d{1,2}[A-Z]?/)[0]};
+const covered=pc=>{const o=outward(pc);return !!o&&COVER.some(r=>r.test(o))};
 const $=s=>document.querySelector(s);
 const app=$("#app");
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -190,7 +276,12 @@ const SITE=location.origin+location.pathname;
 const me=()=>S.user?{id:S.user.id,email:S.user.email,name:(S.profile&&S.profile.full_name)||(S.user.user_metadata||{}).full_name||"",phone:(S.profile&&S.profile.phone)||"",addr:(S.profile&&S.profile.address)||"",pc:(S.profile&&S.profile.postcode)||"",marketing:!!(S.profile&&S.profile.marketing),consentTerms:S.profile&&S.profile.terms_accepted_at}:null;
 async function loadProfile(){if(!S.user){S.profile=null;return}const{data}=await SB.from("profiles").select("*").eq("id",S.user.id).maybeSingle();S.profile=data||null}
 async function loadBookings(){if(!S.user){S.bks=[];return}S.bksLoading=true;const{data,error}=await SB.from("bookings").select("*").order("created_at",{ascending:false});S.bksLoading=false;S.bks=error?[]:data||[]}
-const go=h=>{if(location.hash===h)render();else location.hash=h};
+let ROUTE=(/^#(home|tests|book|signup|signin|forgot|account|newpw)$/.test(location.hash)?location.hash:"#home");
+{const q=new URLSearchParams(location.search).get("pkg");if(q&&P.some(x=>x.code===q)){S.pkg=q;S.step=2;ROUTE="#book";try{history.replaceState(null,"",SITE+"#book")}catch(e){}}}
+const setRoute=h=>{ROUTE=h;try{history.replaceState(null,"",SITE+h)}catch(e){}};
+function onRoute(){if(S.keep)S.keep=false;else clearForm();S.confirm=null;S.showData=false;if(ROUTE==="#account"&&S.user){S.bks=null;loadBookings().then(render)}render();try{scrollTo(0,0)}catch(e){}}
+function nav(h){if(!h||h==="#")h="#home";ROUTE=h;try{history.pushState(null,"",SITE+h)}catch(e){}onRoute()}
+const go=h=>{if(ROUTE===h)render();else nav(h)};
 function renderActs(){const u=me(),t=effTheme(),n=t==="dark"?"light":"dark",first=u&&(u.name||u.email).split(/[ @]/)[0];
 $("#acts").innerHTML=`<button class="ib" data-a="theme" aria-label="Switch to ${n} theme" title="Switch to ${n} theme"><svg viewBox="0 0 24 24" aria-hidden="true">${t==="dark"?SUN:MOON}</svg></button>`+(!S.authReady?"":u?`<a class="btn" href="#account">${esc(first)}</a>`:`<a class="btn alt" href="#signin">Sign in</a><a class="btn teal" href="#signup">Sign up</a>`)}
 function field(l,n,t,ac,v,err){return `<label>${l}<input name="${n}" type="${t}" autocomplete="${ac}" value="${esc(v||"")}" ${err?'aria-invalid="true"':""}><span class="err" role="alert">${err||""}</span></label>`}
@@ -214,24 +305,25 @@ if(!u)return '<div class="auth"><h1 style="font-size:clamp(28px,6vw,40px)">Your 
 const tab=S.tab||"bookings",e=S.fe||{},v=S.ff||u,T=[["bookings","Bookings"],["details","My details"],["security","Password"],["privacy","Privacy & data"]];
 let body="";
 if(tab==="bookings"){const today=new Date();today.setHours(0,0,0,0);const bs=S.bks;
-body=!bs?'<p class="code">Loading your bookings…</p>':bs.length?bs.map(b=>{const up=b.status!=="cancelled"&&new Date(b.preferred_date+"T23:59:00")>=today;
-return `<article class="card" style="margin-bottom:12px"><div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><b>${esc(b.ref||"Booking")}</b><span class="st ${b.status==="cancelled"?"x":""}">${esc(ST[b.status]||b.status)}</span></div><div>${esc(b.test_name)}</div><div class="code">${bkSlot(b)}</div>${b.price!=null?`<div class="price" style="font-size:18px">${gbp(+b.price)}</div>`:""}${S.confirm===b.id?`<div class="note" role="alertdialog" aria-label="Confirm cancellation"><b>Cancel this booking?</b><div class="cta" style="margin-top:10px"><button class="btn danger" data-a="cancelyes" data-id="${esc(b.id)}">Yes, cancel</button><button class="btn alt" data-a="cancelno">Keep booking</button></div></div>`:`<div style="display:flex;gap:8px;flex-wrap:wrap">${up?`<button class="btn danger" style="min-height:42px" data-a="cancelask" data-id="${esc(b.id)}">Cancel</button>`:""}${b.test_code?`<button class="btn alt" style="min-height:42px" data-a="rebook" data-code="${esc(b.test_code)}">Book again</button>`:""}</div>`}</article>`}).join(""):'<div class="note">No bookings yet. <a href="#tests">Browse test packages</a> to book your first collection.</div>'}
+body=!bs?'<p class="code">Loading your bookings…</p>':bs.length?bs.map(b=>{const st=new Date(b.preferred_date+"T"+(/^afternoon/i.test(b.preferred_time||"")?"12:00":"08:00")+":00"),up=b.status!=="cancelled"&&st>new Date(),late=st-new Date()<864e5;
+return `<article class="card" style="margin-bottom:12px"><div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><b>${esc(b.ref||"Booking")}</b><span class="st ${b.status==="cancelled"?"x":""}">${esc(ST[b.status]||b.status)}</span></div><div>${esc(b.test_name)}</div><div class="code">${bkSlot(b)}</div>${b.price!=null?`<div class="price" style="font-size:18px">${gbp(+b.price)}</div>`:""}${S.confirm===b.id?`<div class="note" role="alertdialog" aria-label="Confirm cancellation"><b>Cancel this booking?</b>${late?'<br>Your appointment starts in less than 24 hours, so this booking is <b>non-refundable</b>. <a href="/cancellation-policy/">Cancellation policy</a>':'<br>You are cancelling more than 24 hours before your appointment, so you will not be charged.'}<div class="cta" style="margin-top:10px"><button class="btn danger" data-a="cancelyes" data-id="${esc(b.id)}">Yes, cancel</button><button class="btn alt" data-a="cancelno">Keep booking</button></div></div>`:`<div style="display:flex;gap:8px;flex-wrap:wrap">${up?`<button class="btn danger" style="min-height:42px" data-a="cancelask" data-id="${esc(b.id)}">Cancel</button>`:""}${b.test_code?`<button class="btn alt" style="min-height:42px" data-a="rebook" data-code="${esc(b.test_code)}">Book again</button>`:""}</div>`}</article>`}).join(""):'<div class="note">No bookings yet. <a href="#tests">Browse test packages</a> to book your first collection.</div>'}
 else if(tab==="details")body=`<form data-form="details" novalidate class="f" style="max-width:460px">${field("Full name","name","text","name",v.name,e.name)}<label>Email<input type="email" value="${esc(u.email)}" disabled></label>${field("Telephone","phone","tel","tel",v.phone,e.phone)}${field("Collection address","addr","text","street-address",v.addr,e.addr)}${field("Postcode","pc","text","postal-code",v.pc,e.pc)}${BUSY("Save changes")}</form>`;
 else if(tab==="security")body=`<form data-form="password" novalidate class="f" style="max-width:460px">${field("Current password","cur","password","current-password","",e.cur)}${field("New password (8+ characters)","pw","password","new-password","",e.pw)}${field("Confirm new password","pw2","password","new-password","",e.pw2)}${BUSY("Change password")}</form>`;
 else{const dump=JSON.stringify({account:{name:u.name,email:u.email,phone:u.phone,address:u.addr,postcode:u.pc,marketing:u.marketing,termsAccepted:u.consentTerms},bookings:(S.bks||[]).map(b=>({ref:b.ref,test:b.test_name,date:b.preferred_date,window:b.preferred_time,price:b.price,status:ST[b.status]||b.status}))},null,2);
 body=`<form data-form="privacy" class="f" style="max-width:520px">${chk("mk","Send me news and offers (optional). Booking confirmations and service messages are always sent.",u.marketing)}<button class="btn alt" type="submit">Save preference</button></form><section style="margin-top:28px"><h3>Your data</h3>${u.consentTerms?`<p class="code">Terms accepted ${new Date(u.consentTerms).toLocaleString("en-GB")}.</p>`:""}<button class="btn alt" data-a="showdata">${S.showData?"Hide":"Show"} my data</button>${S.showData?`<pre class="mail" style="margin-top:12px;overflow:auto;white-space:pre-wrap;word-break:break-word">${esc(dump)}</pre>`:""}</section><section style="margin-top:28px"><h3 style="color:var(--red)">Delete account</h3><p>This permanently deletes your account. Records of past bookings may be kept where we are required to for clinical or legal reasons.</p><form data-form="delete" novalidate class="f" style="max-width:460px">${field("Type DELETE to confirm","confirm","text","off","",e.del)}<button class="btn danger" type="submit" ${S.busy?"disabled":""}>Delete my account</button></form></section>`}
 return `<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><div><h1 style="font-size:clamp(26px,6vw,38px);margin:0">Hi, ${esc((u.name||"there").split(" ")[0])}</h1><span class="code">${esc(u.email)}</span></div><button class="btn alt" style="min-height:42px" data-a="signout">Sign out</button></div><div class="tabs" role="group" aria-label="Account sections">${T.map(([k,l])=>`<button class="tab" data-a="tab" data-t="${k}" aria-pressed="${tab===k}">${l}</button>`).join("")}</div>${body}`}
-function cardHTML(p){return `<article class="card">${ico(p.cats)}<h3>${esc(p.name)} (${p.code})</h3><div>${p.cats.map(c=>`<span class="tag">${CATS[c]}</span>`).join("")}</div><p class="code" style="margin:0">${p.tests.length>1&&p.tests[0].length<50?p.tests.slice(0,3).join(", ")+(p.tests.length>3?" +"+(p.tests.length-3)+" more":""):"See included tests"}</p><div class="price">${gbp(p.price)}</div><span class="code">Includes home visit</span><div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn alt" href="#tests" data-info="${p.code}">Details</a><a class="btn teal" href="#book" data-pick="${p.code}">Book</a></div></article>`}
+const CAP=p=>p.code==="SP7"?"blue":p.cats.includes("allergy")?"red":p.cats.includes("diab")?"lav":p.cats.some(c=>["horm","vit","thy","heart","sport","men","women"].includes(c))&&!p.cats.includes("gen")?"gold":p.cats.includes("gen")&&p.tests.some(t=>/Full Blood Count|Haemoglobin/i.test(t))?"lav":"gold";
+const slugOf=p=>(p.code+" "+p.name).toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+function cardHTML(p){const sum=p.tests.length>1&&p.tests[0].length<50?p.tests.slice(0,3).join(", ")+(p.tests.length>3?" and "+(p.tests.length-3)+" more":""):p.tests[0];return `<article class="card pkg" style="--cap:var(--cap-${CAP(p)})"><h3>${esc(p.name)}</h3><p class="code">${esc(p.code)} · ${esc(sum)}</p><div>${p.cats.filter(c=>c!=="single").map(c=>`<span class="tag">${CATS[c]}</span>`).join("")}</div><div class="meta"><span class="price">${gbp(p.price)}</span><span class="code">Home visit included</span></div><div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn alt" href="/tests/${slugOf(p)}/">Details</a><a class="btn teal" href="#book" data-pick="${p.code}">Book</a></div></article>`}
 function home(){
-const f=[P[6],P[0],P[3]];
-return `<div class="hero"><div><h1>Blood tests, collected at your door.</h1><p>Choose your test type and a specialist will come to collect your blood at your home or the address you choose. Then you will receive your results within three days. Allergy tests take five days to ensure accurate results.</p><div class="cta"><a class="btn" href="#tests">Browse test packages</a><a class="btn teal" href="#book">Book a collection</a></div></div>
-<svg class="pulse" viewBox="0 0 600 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50H190l22-38 30 74 28-36H600" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
-<section><h2>Popular packages</h2><div class="grid">${f.map(cardHTML).join("")}</div></section>
-<section><h2>What’s included</h2><div class="grid"><div class="card"><h3>Home visit</h3>The price includes the visit to your address. No extra call-out fee.</div><div class="card"><h3>Results explained simply</h3>You receive a short, plain-language explanation of your results.</div><div class="card"><h3>We call if it’s urgent</h3>If a result is serious, we contact you by phone and explain what it means and what to do next.</div></div></section>
-<section><h2>See how a visit works</h2><div class="jr" role="group" aria-label="Visit steps">${JR.map((j,i)=>`<button class="jb" data-j="${i}" aria-pressed="${(S.j||0)===i}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${j[2]}"/></svg>${j[0]}</button>`).join("")}</div><div class="note" style="margin-top:12px"><b>${JR[S.j||0][0]}.</b> ${JR[S.j||0][1]}</div></section>
-<section><h2>How it works</h2><ol class="steps"><li><div><h3>Pick a package</h3>Browse ${P.length} packages with prices and included tests.</div></li><li><div><h3>Choose your slot</h3>Enter your postcode, then pick a date and a morning or afternoon window.</div></li><li><div><h3>We collect the sample</h3>Windows are not exact arrival times.</div></li><li><div><h3>Receive results</h3>You get a simple explanation of your results. If a result is serious, we phone you to explain.</div></li></ol></section>
-<section><h2>Areas we cover</h2><p>Oxfordshire, Berkshire, Buckinghamshire, Wiltshire, Northamptonshire and Gloucestershire. The booking form checks your postcode.</p></section>
-<section class="note"><b>Please note:</b> Our explanations are plain-language guidance, not a diagnosis. Speak to a clinician about any concerns.</section>`}
+const f=[P[0],P[3],P[6]];
+return `<div class="hero"><div><h1>Your blood test, taken at home.</h1><p class="lede">Choose a test, pick a morning or afternoon, and a trained phlebotomist comes to your door. Results in three days. Allergy tests take five.</p><div class="cta"><a class="btn" href="#book">Book a home visit</a><a class="btn alt" href="#tests">See all tests</a></div></div>
+<svg class="rack" viewBox="0 0 420 350" role="img" aria-label="Five blood sample tubes in a rack, each labelled with a type of test"><g><rect class="glass" x="30" y="74" width="40" height="250" rx="20"/><rect class="fill" x="34" y="150" width="32" height="170" rx="16"/><rect x="33" y="96" width="34" height="122" rx="3" fill="var(--card)" stroke="var(--line)"/><text class="lbl" transform="translate(50 157) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Blood count</text><rect x="23" y="38" width="54" height="46" rx="9" fill="var(--cap-lav)"/><rect x="23" y="74" width="54" height="10" fill="#000" opacity=".12"/></g><g><rect class="glass" x="110" y="74" width="40" height="250" rx="20"/><rect class="fill" x="114" y="150" width="32" height="170" rx="16"/><rect x="113" y="96" width="34" height="122" rx="3" fill="var(--card)" stroke="var(--line)"/><text class="lbl" transform="translate(130 157) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Liver, kidney</text><rect x="103" y="38" width="54" height="46" rx="9" fill="var(--cap-gold)"/><rect x="103" y="74" width="54" height="10" fill="#000" opacity=".12"/></g><g><rect class="glass" x="190" y="74" width="40" height="250" rx="20"/><rect class="fill" x="194" y="150" width="32" height="170" rx="16"/><rect x="193" y="96" width="34" height="122" rx="3" fill="var(--card)" stroke="var(--line)"/><text class="lbl" transform="translate(210 157) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Glucose</text><rect x="183" y="38" width="54" height="46" rx="9" fill="var(--cap-grey)"/><rect x="183" y="74" width="54" height="10" fill="#000" opacity=".12"/></g><g><rect class="glass" x="270" y="74" width="40" height="250" rx="20"/><rect class="fill" x="274" y="150" width="32" height="170" rx="16"/><rect x="273" y="96" width="34" height="122" rx="3" fill="var(--card)" stroke="var(--line)"/><text class="lbl" transform="translate(290 157) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Clotting</text><rect x="263" y="38" width="54" height="46" rx="9" fill="var(--cap-blue)"/><rect x="263" y="74" width="54" height="10" fill="#000" opacity=".12"/></g><g><rect class="glass" x="350" y="74" width="40" height="250" rx="20"/><rect class="fill" x="354" y="150" width="32" height="170" rx="16"/><rect x="353" y="96" width="34" height="122" rx="3" fill="var(--card)" stroke="var(--line)"/><text class="lbl" transform="translate(370 157) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Hormones</text><rect x="343" y="38" width="54" height="46" rx="9" fill="var(--cap-red)"/><rect x="343" y="74" width="54" height="10" fill="#000" opacity=".12"/></g><rect class="base" x="6" y="286" width="408" height="56" rx="12"/></svg></div>
+<div class="facts"><div><b>Home visit included</b><span>No call-out fee on any test.</span></div><div><b>Results in 3 days</b><span>Allergy tests take 5 days.</span></div><div><b>Explained simply</b><span>And we phone you if anything is urgent.</span></div></div>
+<section><h2>How a home visit works</h2><ol class="timeline"><li><h3>Choose your test</h3><p>Browse ${P.length} packages and single tests, each with a clear price.</p></li><li><h3>Pick a time</h3><p>Enter your postcode, then a morning or afternoon window.</p></li><li><h3>We come to you</h3><p>A phlebotomist arrives within your window and takes a small sample.</p></li><li><h3>Get your results</h3><p>A plain-language explanation, usually within three days.</p></li></ol></section>
+<section><h2>Popular tests</h2><div class="grid" style="margin-top:22px">${f.map(cardHTML).join("")}</div><a class="more" href="#tests">See all ${P.length} tests</a></section>
+<section><h2>Before your visit</h2><div class="prep"><div class="card"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 6h18l-3 28H14z"/><path d="M12.5 17h15"/></svg><div><h3>Drink plenty of water</h3><p>Being well hydrated makes your sample quicker and easier to take.</p></div></div><div class="card"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="13" cy="13" r="3.5"/><circle cx="27" cy="13" r="3.5"/><circle cx="8" cy="22" r="3"/><circle cx="32" cy="22" r="3"/><path d="M20 20c-5 0-9 6-9 10 0 3 3 4 5 3s5-1 8 0 5 0 5-3c0-4-4-10-9-10z"/></svg><div><h3>Settle your dog</h3><p>If you have a dog, please keep it in another room while we take your sample.</p></div></div></div></section>
+<section><h2>Areas we cover</h2><p class="sub">We are a mobile service covering Oxfordshire and the six counties around it. Enter your postcode when you book and we will confirm we can reach you.</p><ul class="areas"><li><a href="/areas/oxfordshire/">Oxfordshire</a><span>OX</span></li><li><a href="/areas/berkshire/">Berkshire</a><span>RG, SL</span></li><li><a href="/areas/buckinghamshire/">Buckinghamshire</a><span>HP, MK</span></li><li><a href="/areas/wiltshire/">Wiltshire</a><span>SN, SP, BA</span></li><li><a href="/areas/northamptonshire/">Northamptonshire</a><span>NN</span></li><li><a href="/areas/gloucestershire/">Gloucestershire</a><span>GL</span></li><li><a href="/areas/warwickshire/">Warwickshire</a><span>CV</span></li></ul><a class="more" href="/areas/">See every town we cover</a></section>`}
 function tests(){
 const list=P.filter(p=>(S.cat==="all"||p.cats.includes(S.cat))&&(p.name+p.code+p.tests.join(" ")).toLowerCase().includes(S.q.toLowerCase()));
 const info=S.info&&P.find(p=>p.code===S.info);
@@ -249,12 +341,12 @@ const WIN=[["Morning","8:00 AM–12:00 PM"],["Afternoon","12:00 PM–6:00 PM"]];
 function slotText(){const d=new Date(S.date);return `${d.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"})} — ${WIN[S.win][0]}, ${WIN[S.win][1]} (UK local time)`}
 function book(){
 const p=P.find(x=>x.code===S.pkg),prog=`<div class="prog" aria-hidden="true">${[1,2,3,4,5].map(i=>`<i class="${i<=S.step?"on":""}"></i>`).join("")}</div>`;
-if(S.done)return `<h1 style="font-size:clamp(28px,6vw,40px)">Booking received</h1><div class="card" style="margin-top:16px"><div class="row"><span>Reference</span><b>${S.done}</b></div><div class="row"><span>Package</span><b>${esc(p.name)} (${p.code})</b></div><div class="row"><span>Appointment</span><b style="text-align:right">${slotText()}</b></div><div class="row"><span>Total</span><b>${gbp(p.price)}</b></div></div><p class="note" style="margin-top:14px">Thank you. We have received your booking and will contact you shortly to confirm your appointment and payment.</p>${doneExtras()}<div class="cta"><button class="btn" data-reset>Start again</button></div>`;
+if(S.done)return `<h1 style="font-size:clamp(28px,6vw,40px)">Booking received</h1><div class="card" style="margin-top:16px"><div class="row"><span>Reference</span><b>${S.done}</b></div><div class="row"><span>Package</span><b>${esc(p.name)} (${p.code})</b></div><div class="row"><span>Appointment</span><b style="text-align:right">${slotText()}</b></div><div class="row"><span>Total</span><b>${gbp(p.price)}</b></div></div><p class="note" style="margin-top:14px">Thank you. We have received your booking and will contact you shortly to confirm your appointment and payment. You can cancel free of charge up to 24 hours before your appointment window starts.</p>${doneExtras()}<div class="cta"><button class="btn" data-reset>Start again</button></div>`;
 if(S.step===1)return prog+`<h2>1. Choose a package</h2><label>Package<select id="sel"><option value="">Select a package…</option>${P.map(x=>`<option value="${x.code}" ${x.code===S.pkg?"selected":""}>${esc(x.name)} (${x.code}) – ${gbp(x.price)}</option>`).join("")}</select></label><div class="nav2"><span></span><button class="btn" data-go="2" ${S.pkg?"":"disabled"}>Continue</button></div>${S.pkg?"":'<p class="code">Choose a package to continue.</p>'}`;
-if(S.step===2){const a=AREAS[S.pc.trim().toUpperCase().replace(/[^A-Z]/g,"").slice(0,2)];return prog+`<h2>2. Your postcode</h2><label>Postcode<input id="pc" value="${esc(S.pc)}" placeholder="e.g. OX11 7AB" autocomplete="postal-code"></label><div class="err" role="alert">${S.pc.length>=3&&!a?"Sorry, we don’t cover this postcode yet.":""}</div>${a?`<div class="note">Good news – we cover ${a}.</div>`:""}<div class="nav2"><button class="btn alt" data-go="1">Back</button><button class="btn" data-go="3" ${a?"":"disabled"}>Continue</button></div>`}
+if(S.step===2){const a=covered(S.pc);return prog+`<h2>2. Your postcode</h2><label>Postcode<input id="pc" value="${esc(S.pc)}" placeholder="e.g. OX11 7AB" autocomplete="postal-code"></label><div class="err" role="alert">${S.pc.trim().length>=2&&!a?'Sorry, we don’t cover this postcode yet. Email <a href="mailto:hello@pulsevital.co.uk">hello@pulsevital.co.uk</a> and we will tell you if we can reach you.':""}</div>${a?`<div class="note">Good news – we cover your area.</div>`:""}<div class="nav2"><button class="btn alt" data-go="1">Back</button><button class="btn" data-go="3" ${a?"":"disabled"}>Continue</button></div>`}
 if(S.step===3){const a=S.date&&avail(new Date(S.date));return prog+`<h2>3. Date and time window</h2><p class="code">We collect Monday to Saturday.</p>${cal()}${S.date?`<div class="wins">${WIN.map((w,i)=>`<button class="win" data-win="${i}" ${a[i]>0?"":"disabled"} aria-pressed="${S.win===i}"><b>${w[0]}</b>${w[1]}</button>`).join("")}</div><p class="code">These are windows, not exact arrival times.</p>`:'<p class="code">Select a date to see time windows.</p>'}<div class="nav2"><button class="btn alt" data-go="2">Back</button><button class="btn" data-go="4" ${S.date&&S.win!==null?"":"disabled"}>Continue</button></div>`}
-if(S.step===4){prefill();const e=S.err||{},ro=!!me();return prog+`<h2>4. Your details</h2>${ro?'<p class="code">Signed in: details filled from your account.</p>':""}<div class="f">${[["name","Full name","text","name"],["email","Email","email","email"],["phone","Telephone","tel","tel"],["addr","Service address","text","street-address"]].map(([k,l,t,ac])=>`<label>${l}<input data-f="${k}" type="${t}" autocomplete="${ac}" value="${esc(S.d[k]||"")}" ${k==="email"&&ro?"readonly":""}><span class="err">${e[k]||""}</span></label>`).join("")}<label style="font-weight:500"><span><input type="checkbox" data-f="c1" style="width:auto;min-height:0" ${S.d.c1?"checked":""}> I understand the explanation of my results is general guidance and not a diagnosis, and appointment windows are not exact times.</span><span class="err">${e.c1||""}</span></label><label style="font-weight:500"><span><input type="checkbox" data-f="mk" style="width:auto;min-height:0" ${S.d.mk?"checked":""}> Optional: send me news and offers.</span></label></div><div class="nav2"><button class="btn alt" data-go="3">Back</button><button class="btn" data-validate>Review booking</button></div>`}
-return prog+`<h2>5. Review and confirm</h2><div class="card"><div class="row"><span>Package</span><b>${esc(p.name)} (${p.code})</b></div><div class="row"><span>Appointment</span><b style="text-align:right">${slotText()}</b></div><div class="row"><span>Address</span><b style="text-align:right">${esc(S.d.addr)}, ${esc(S.pc.toUpperCase())}</b></div><div class="row"><span>Contact</span><b style="text-align:right">${esc(S.d.name)}<br>${esc(S.d.email)}</b></div><div class="row"><span>Total</span><b class="price">${gbp(p.price)}</b></div><div class="row"><span>Included</span><b style="text-align:right">Home visit and a simple explanation of your results</b></div></div><p class="note" style="margin-top:12px">We will contact you to confirm your appointment and payment.</p>${S.sendErr?`<p class="err" role="alert">${esc(S.sendErr)}</p>`:""}<div class="nav2"><button class="btn alt" data-go="4">Back</button><button class="btn teal" data-confirm ${S.sending?"disabled":""}>${S.sending?"Sending…":"Confirm booking"}</button></div>`}
+if(S.step===4){prefill();const e=S.err||{},ro=!!me();return prog+`<h2>4. Your details</h2>${ro?'<p class="code">Signed in: details filled from your account.</p>':""}<div class="f">${[["name","Full name","text","name"],["email","Email","email","email"],["phone","Telephone","tel","tel"],["addr","Service address","text","street-address"]].map(([k,l,t,ac])=>`<label>${l}<input data-f="${k}" type="${t}" autocomplete="${ac}" value="${esc(S.d[k]||"")}" ${k==="email"&&ro?"readonly":""}><span class="err">${e[k]||""}</span></label>`).join("")}<label style="font-weight:500"><span><input type="checkbox" data-f="c1" style="width:auto;min-height:0" ${S.d.c1?"checked":""}> I understand the explanation of my results is general guidance and not a diagnosis, appointment windows are not exact times, and I agree to the <a href="/cancellation-policy/">cancellation policy</a>.</span><span class="err">${e.c1||""}</span></label><label style="font-weight:500"><span><input type="checkbox" data-f="mk" style="width:auto;min-height:0" ${S.d.mk?"checked":""}> Optional: send me news and offers.</span></label></div><div class="nav2"><button class="btn alt" data-go="3">Back</button><button class="btn" data-validate>Review booking</button></div>`}
+return prog+`<h2>5. Review and confirm</h2><div class="card"><div class="row"><span>Package</span><b>${esc(p.name)} (${p.code})</b></div><div class="row"><span>Appointment</span><b style="text-align:right">${slotText()}</b></div><div class="row"><span>Address</span><b style="text-align:right">${esc(S.d.addr)}, ${esc(S.pc.toUpperCase())}</b></div><div class="row"><span>Contact</span><b style="text-align:right">${esc(S.d.name)}<br>${esc(S.d.email)}</b></div><div class="row"><span>Total</span><b class="price">${gbp(p.price)}</b></div><div class="row"><span>Included</span><b style="text-align:right">Home visit and a simple explanation of your results</b></div></div><p class="note" style="margin-top:12px">We will contact you to confirm your appointment and payment.</p><p class="note" style="margin-top:12px"><b>Free cancellation up to 24 hours before your appointment window starts.</b> After that the fee is non-refundable, because your phlebotomist's time is reserved for you. Read our <a href="/cancellation-policy/">cancellation policy</a>.</p>${S.sendErr?`<p class="err" role="alert">${esc(S.sendErr)}</p>`:""}<div class="nav2"><button class="btn alt" data-go="4">Back</button><button class="btn teal" data-confirm ${S.sending?"disabled":""}>${S.sending?"Sending…":"Confirm booking"}</button></div>`}
 function seo(r){const noidx=["signup","signin","forgot","account","newpw","book"].includes(r);let t="Mobile Blood Tests at Home | PulseVital",d="Book a home blood test with PulseVital. Choose your test and a specialist collects your blood at your home or chosen address. Results in three days; allergy tests take five.";
 if(r==="tests"){const i=S.info&&P.find(p=>p.code===S.info);if(i){t=i.name+" ("+i.code+") Blood Test at Home | PulseVital";d=i.name+" blood test with home collection. Includes: "+i.tests.slice(0,5).join(", ").slice(0,110)+". Book with PulseVital."}else{t="Blood Test Packages & Single Tests | PulseVital";d="Browse health screens, hormone, vitamin, thyroid, allergy and single blood tests. Home collection included in the price."}}
 else if(r==="book"){t="Book a Home Blood Test | PulseVital";d="Choose a test, your postcode and a time window. A specialist collects your blood at home."}
@@ -263,18 +355,20 @@ document.title=t;const set=(sel,attr,v)=>{const m=document.querySelector(sel);if
 set('meta[name=description]','content',d);set('meta[property="og:title"]','content',t);set('meta[property="og:description"]','content',d);
 set('meta[name=robots]','content',noidx?"noindex,follow":"index,follow,max-snippet:-1,max-image-preview:large")}
 function render(){
-const r=(location.hash||"#home").slice(1);const v=({tests,book,signup,signin,forgot,account,newpw})[r]||home;
+const r=(ROUTE||"#home").slice(1);const v=({tests,book,signup,signin,forgot,account,newpw})[r]||home;
 const fl=S.flash;S.flash=null;seo(r);
 app.innerHTML=(fl?`<div class="ok" role="status">${esc(fl)}</div>`:"")+v();
 ["home","tests","book"].forEach(k=>{const n=$("#n-"+k);r===k||(!["tests","book","signup","signin","forgot","account","newpw"].includes(r)&&k==="home")?n.setAttribute("aria-current","page"):n.removeAttribute("aria-current")});renderActs()}
-window.addEventListener("hashchange",()=>{if(S.keep)S.keep=false;else clearForm();S.confirm=null;S.showData=false;if(location.hash==="#account"&&S.user){S.bks=null;loadBookings().then(render)}render();scrollTo(0,0)});
+const fromURL=()=>{const h=location.hash;if(/^#(home|tests|book|signup|signin|forgot|account|newpw)$/.test(h)&&h!==ROUTE){ROUTE=h;onRoute()}};
+window.addEventListener("hashchange",fromURL);window.addEventListener("popstate",fromURL);
+document.addEventListener("click",e=>{if(e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey)return;const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();nav(a.getAttribute("href"))});
 if(matchMedia)matchMedia("(prefers-color-scheme:dark)").addEventListener?.("change",renderActs);
 app.addEventListener("click",e=>{
 const t=e.target.closest("[data-cat],[data-info],[data-pick],[data-mm],[data-date],[data-win],[data-go],[data-validate],[data-confirm],[data-reset],[data-j]");if(!t)return;
 const D=t.dataset;
 if("cat"in D){S.cat=D.cat;S.info=null}
-else if("info"in D){S.info=D.info||null;if(location.hash!=="#tests")return;e.preventDefault()}
-else if("pick"in D){S.pkg=D.pick;S.step=2;S.done=null;if(location.hash==="#book"){e.preventDefault()}else return}
+else if("info"in D){S.info=D.info||null;if(ROUTE!=="#tests")return;e.preventDefault()}
+else if("pick"in D){S.pkg=D.pick;S.step=2;S.done=null;if(ROUTE==="#book"){e.preventDefault()}else return}
 else if("mm"in D)S.m=new Date(S.m.getFullYear(),S.m.getMonth()+ +D.mm,1);
 else if("date"in D){S.date=D.date;S.win=null}
 else if("win"in D)S.win=+D.win;
@@ -388,14 +482,14 @@ else if(t.dataset.f){S.d[t.dataset.f]=t.type==="checkbox"?t.checked:t.value}});
 render();
 /* ---------- auth session ---------- */
 const linkErr=/error_code=|error=/.test(H0)&&!/access_token/.test(H0);
-if(linkErr){S.flash="This link has expired or was already used. Please try again.";history.replaceState(null,"",SITE+"#signin");render()}
+if(linkErr){S.flash="This link has expired or was already used. Please try again.";setRoute("#signin");render()}
 SB.auth.onAuthStateChange((ev,session)=>{setTimeout(async()=>{
 const was=!!S.user;S.user=session?session.user:null;
 if(!S.user){S.profile=null;S.bks=null}else if(!was||ev==="USER_UPDATED")await loadProfile();
 const first=!S.authReady;S.authReady=true;
-if(ev==="PASSWORD_RECOVERY"||(first&&/type=recovery/.test(H0)&&S.user)){history.replaceState(null,"",SITE+"#newpw");render();return}
-if(first&&/access_token/.test(H0)&&S.user){S.flash="Your email is confirmed – welcome to PulseVital!";S.tab="bookings";history.replaceState(null,"",SITE+"#account")}
-if(location.hash==="#account"&&S.user&&!S.bks&&!S.bksLoading){await loadBookings()}
+if(ev==="PASSWORD_RECOVERY"||(first&&/type=recovery/.test(H0)&&S.user)){setRoute("#newpw");render();return}
+if(first&&/access_token/.test(H0)&&S.user){S.flash="Your email is confirmed – welcome to PulseVital!";S.tab="bookings";setRoute("#account")}
+if(ROUTE==="#account"&&S.user&&!S.bks&&!S.bksLoading){await loadBookings()}
 render()},0)});
 </script>
 </body>
